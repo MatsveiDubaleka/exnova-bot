@@ -14,7 +14,7 @@ ReactGA.initialize(GOOGLE_TOKEN);
 export default function App() {
   const [lang, setLang] = useState<LangsType>('en');
   const [step, setStep] = useState<number>(0);
-  const gaEventTracker = useAnalyticsEventTracker('Test Quotex Trade Bot');
+  const gaEventTracker = useAnalyticsEventTracker('Test Exnova Trade Bot');
 
   console.log('REDIRECT_URL', REDIRECT_URL);
   console.log('LID', LID);
